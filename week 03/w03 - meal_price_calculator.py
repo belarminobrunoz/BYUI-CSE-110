@@ -1,3 +1,7 @@
+print("\n\n\n")
+print("***************************************************")
+print("")
+
 childs_meal_price = float(input("The price of a child's meal: "))
 adults_meal_price = float(input("The price of an adult's meal: "))# (floating point)
 number_children  = int(input("The number of children: "))# (integer)
