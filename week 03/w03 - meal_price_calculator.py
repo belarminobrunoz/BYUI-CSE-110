@@ -20,7 +20,7 @@ sales_tax_rate  = float(input("Please inform the sales tax rate: "))# (floating 
 
 print("\n")
 
-print("Thanks for the information!")
+print("Thanks for these information!")
 
 #Calculation part
 subtotal = round((childs_meal_price * number_children) + (adults_meal_price * number_adults),2)
