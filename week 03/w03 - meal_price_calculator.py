@@ -23,9 +23,9 @@ print("\n")
 print("Thanks for the information!")
 
 #Calculation part
-subtotal = (childs_meal_price * number_children) + (adults_meal_price * number_adults)
-sales_tax = (sales_tax_rate/100)*subtotal
-total_meal_price = subtotal+sales_tax
+subtotal = round((childs_meal_price * number_children) + (adults_meal_price * number_adults),2)
+sales_tax = round((sales_tax_rate/100)*subtotal,2)
+total_meal_price = round(subtotal+sales_tax,2)
 
 print("\nHere is your bill: ")
 print("***************************************************")
@@ -36,6 +36,6 @@ print(f"Total price of the meal: {total_meal_price}")
 print("\n")
 print("***************************************************")
 payment_amount = float(input("What's the payment amount? "))
-change = payment_amount - total_meal_price
+change = round(payment_amount - total_meal_price,2)
 print("\n")
 print(f"Thank you for your payment! Here is your change: {change}")
