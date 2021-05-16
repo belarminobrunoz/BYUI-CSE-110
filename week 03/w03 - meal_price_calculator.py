@@ -43,4 +43,4 @@ payment_amount = float(input("What's the payment amount? "))
 change = round(payment_amount - total_meal_price,2)
 print("\n")
 
-print(f"Thank you for your payment! Here is your change: ${change:.2f}")
+print(f"Thank you for your payment {customer_name}! Here is your change: ${change:.2f}")
