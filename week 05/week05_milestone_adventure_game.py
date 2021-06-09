@@ -46,7 +46,6 @@ if meal == "PIZZA": #first level
     else: #second level
         print(f"The {flavor} is not on the menu :(")
 
-
 elif meal == "BURGUER": #first level
     print("\nwohoo! Burguers!!")
     soda = (input("\nOnce you will order burguers, which soda will you choose? In the menu there is two options: COKE or DOLLY\n")).upper()
